@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 10px;
+  flex-direction: column;
+  color: white;
+}
+.main2{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.main2 button{
+  width: 80px;
+  height: 30px;
+  background-color: rgb(43, 158, 139);
+  color: white;
+  border:2px solid  rgb(43, 158, 139) ;
+}
+.main2 button:hover{
+  border:2px solid rgb(43, 158, 139);
+  background-color: rgb(39, 125, 110);
+}
+
+.card{
+  width: 97%;
+  margin: 7px auto;
+  background-color: rgb(230, 229, 229);
+}
+.card p
+{
+  font-size: 18px;
+  margin: 0px 10px;
+}
+.card button{
+  background-color: rgb(0, 42, 156);
+  border: 2px solid rgb(0, 42, 156);
+  margin: 5px 10px 8px 10px;
+  height: 22px;
+  padding: 2px 12px;
+  border-radius: 3px;
+  color: rgb(236, 236, 236);
+}
+#wishlistPage{
+  font-size: 3vw;
+}
+#wishlistPage p{
+  margin: 5px  20px ;
+  font-size: 20px;
+}
+#holdingsPage p{
+  margin: 10px 20px;
+}
+
+#holdingsPage{
+  font-size: 3vw;
+}
+.card:hover{
+  width: 98%;
+  box-shadow: 5px 5px 2.5px 0.2px rgb(181, 179, 179);
+  
+}
